@@ -38,5 +38,16 @@ img {
 p {
   color: #483D8B;
 }
+`;
 
+
+export const Input = styled.div`
+    input {
+        padding: 0.7em;
+        width: 25vw;
+        border: 1px solid #CCC;
+        display: block;
+        margin:auto;
+        margin-top:2em;
+    }
 `;
