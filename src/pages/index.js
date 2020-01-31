@@ -17,7 +17,7 @@ class Index extends React.Component {
             members: []
         }
 
-        api.get('/orgs/grupotesseract/public_members')
+        api.get('/orgs/grupotesseract/public_members?client_id=7487b714c7b25479fee0&client_secret=064fa8d1756f2447284732cfcadc036656984db7')
             .then((result) => {
                 this.setState({
                     initialMembers: result.data,

@@ -40,7 +40,6 @@ p {
 }
 `;
 
-
 export const Input = styled.div`
     input {
         padding: 0.7em;
