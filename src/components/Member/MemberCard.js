@@ -26,7 +26,7 @@ class MemberCard extends Component {
             })
         }
         else {
-            api.get('/users/' + this.props.login + '?client_id=7487b714c7b25479fee0&client_secret=064fa8d1756f2447284732cfcadc036656984db7')
+            api.get('/users/' + this.props.login )
                 .then((result) => {
                     this.setState({
                         name: result.data.name,
